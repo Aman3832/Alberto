@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script src="https://kit.fontawesome.com/c32adfdcda.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) !important;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0,0,0,0.8);
+        }
+
+        section {
+            position: relative;
+            z-index: 3;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .container {
+            max-width: 1080px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .section-header {
+            margin-bottom: 50px;
+            text-align: center;
+        }
+
+        .section-header h2 {
+            color: #FFF;
+            font-weight: bold;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .section-header p {
+            color: #FFF;
+        }
+
+        .row  {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .contact-info {
+            width: 50%;
+        }
+
+        .contact-info-item {
+            display: flex;
+            margin-bottom: 30px;
+        }
+
+        .contact-info-icon {
+            height: 70px;
+            width: 70px;
+            background-color: #fff;
+            text-align: center;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .contact-info-icon img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .contact-info-content {
+            margin-left: 20px;
+        }
+
+        .contact-info-content h4 {
+            color: #1da9c0;
+            font-size: 1.4em;
+            margin-bottom: 5px;
+        }
+
+        .contact-info-content p {
+            color: #FFF;
+            font-size: 1em;
+        }
+
+        .contact-image {
+            width: 45%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .contact-image img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 991px) {
+            section {
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            
+            .row {
+                flex-direction: column;
+            }
+            
+            .contact-info {
+                margin-bottom: 40px;
+                width: 100%;
+            }
+            
+            .contact-image {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<section>
+    <div class="section-header">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Whether you have a question, feedback, or need assistance, our team is here to help.</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="contact-info">
+                <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                        <img src="../images/homelogo.png" alt="Address Icon">
+                    </div>
+                    <div class="contact-info-content">
+                        <h4>Address</h4>
+                        <p>BITHO SHARIF GAYA</p>
+                    </div>
+                </div>
+                <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                        <img src="../images/phonelogo.webp" alt="Phone Icon">
+                    </div>
+                    <div class="contact-info-content">
+                        <h4>Phone</h4>
+                        <p>+91 9572938089</p>
+                    </div>
+                </div>
+                <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                        <img src="../images/gmaillogo.png" alt="Email Icon">
+                    </div>
+                    <div class="contact-info-content">
+                        <h4>Email</h4>
+                        <p>albertooservice@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-image">
+                <img src="../images/albertquote.jpg" alt="Contact Image">
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
+
