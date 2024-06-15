@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Subjects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('../../../images/background_color.jpg'); /* Ensure this path is correct */
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Added opacity for better readability */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .subject-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .subject-list li {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            cursor: pointer; /* Make the cursor a pointer to indicate it's clickable */
+        }
+        .subject-list li:hover {
+            transform: translateY(-5px);
+            background-color: #e0e0e0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .subject-list li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .subject-list li a:hover {
+            color: #1e88e5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CLASS 10 Geography </h1>
+        <ul class="subject-list">
+            <li onclick="location.href='../geography/geography1.html'"><a href="../geography/geography1.html">1 RESOURCES AND DEVELOPMENT</a></li>
+            <li onclick="location.href='../geography/geography2.html'"><a href="../geography/geography2.html">2 FOREST AND WILDLIFE RESOURCES</a></li>
+            <li onclick="location.href='../geography/geography3.html'"><a href="../geography/geography3.html">3 WATER RESOURCES</a></li>
+            <li onclick="location.href='../geography/geography4.html'"><a href="../geography/geography4.html">4 AGRICULTURE</a></li>
+            <li onclick="location.href='../geography/geography5.html'"><a href="../geography/geography5.html">5 MINERALS AND ENERGY RESOURCES </a></li>
+            <li onclick="location.href='../geography/geography6.html'"><a href="../geography/geography6.html">6 MANUFACTURING INDUSTRIES </a></li>
+            
+            
+            
+            
+            <!-- Add more subjects as needed -->
+        </ul>
+    </div>
+</body>
+</html>
